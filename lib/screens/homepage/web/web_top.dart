@@ -26,7 +26,7 @@ class WebTop extends StatelessWidget {
               child: CircleAvatar(
                 radius: 11.5.w,
                 backgroundImage: const AssetImage(
-                  'assets/images/jeremiah.png',
+                  'assets/images/AhmedRadwan.jpeg',
                 ),
               ),
             ),
@@ -37,25 +37,16 @@ class WebTop extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SlideTransition(
-                  position: animation.drive(Tween(
-                      begin: const Offset(0, 0), end: const Offset(0, 1))),
-                  child: Text(
-                    "MOBILE ENGINEER (FLUTTER)",
-                    style: GoogleFonts.ptSansNarrow(
-                      fontSize: 13.sp,
-                      fontWeight: FontWeight.w700,
-                      color: AppColors.subText,
-                    ),
+                Text(
+                  "Software Engineer",
+                  style: GoogleFonts.ptSansNarrow(
+                    fontSize: 13.sp,
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.subText,
                   ),
                 ),
                 const Gap(15),
-                SlideTransition(
-                  position: animation.drive(Tween(
-                      begin: const Offset(1, 0), end: const Offset(0, 0))),
-                  child:
-                      Text('JEREMIAH ERINOLA', style: AppStyles.titleText(25)),
-                ),
+                Text('Ahmed \nRadwan', style: AppStyles.titleText(25)),
                 const Gap(20),
                 ElevatedButton(
                   onPressed: onTap,

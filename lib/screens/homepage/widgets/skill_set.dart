@@ -17,7 +17,7 @@ class Skillset extends StatelessWidget {
           return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("SKILLSET",
+                Text("Skills",
                     style: size.size == LayoutSize.desktop ||
                             size.orientation == Orientation.landscape
                         ? AppStyles.subText(12.sp)
@@ -25,31 +25,31 @@ class Skillset extends StatelessWidget {
                         : AppStyles.subText(20.sp)
                             .copyWith(color: AppColors.subText)),
                 const Gap(10),
-                Text("Graphics Designer",
+                Text("C++",
                     style: size.size == LayoutSize.desktop ||
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
                         : AppStyles.normalText(size: 18.sp)),
                 const Gap(5),
-                Text("Mobile Engineer",
+                Text("Python",
                     style: size.size == LayoutSize.desktop ||
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
                         : AppStyles.normalText(size: 18.sp)),
                 const Gap(5),
-                Text("Wordpress Website Designer",
+                Text("ROS",
                     style: size.size == LayoutSize.desktop ||
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
                         : AppStyles.normalText(size: 18.sp)),
                 const Gap(5),
-                Text("UX / Prototyping",
+                Text("CUDA C++",
                     style: size.size == LayoutSize.desktop ||
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
                         : AppStyles.normalText(size: 18.sp)),
                 const Gap(5),
-                Text("Leadership",
+                Text("Docker",
                     style: size.size == LayoutSize.desktop ||
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()

@@ -27,30 +27,23 @@ class PhoneTop extends StatelessWidget {
             child: CircleAvatar(
               radius: 24.w,
               backgroundImage: const AssetImage(
-                'assets/images/jeremiah.png',
-              ),
-            ),
-          ),
-          SlideTransition(
-            position: animation.drive(
-                Tween(begin: const Offset(0, 0), end: const Offset(0, 1))),
-            child: Text(
-              "MOBILE ENGINEER (FLUTTER)",
-              style: GoogleFonts.ptSansNarrow(
-                fontSize: 19.sp,
-                fontWeight: FontWeight.w700,
-                color: AppColors.subText,
+                'assets/images/AhmedRadwan.jpeg',
               ),
             ),
           ),
           const Gap(25),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 25.0),
-            child: SlideTransition(
-              position: animation.drive(
-                  Tween(begin: const Offset(1, 0), end: const Offset(0, 0))),
-              child: Text('JEREMIAH ERINOLA',
-                  textAlign: TextAlign.center, style: AppStyles.titleText(28)),
+            child: Text('Ahmed Radwan',
+                textAlign: TextAlign.center, style: AppStyles.titleText(28)),
+          ),
+          const Gap(10),
+          Text(
+            "Software Engineer",
+            style: GoogleFonts.ptSansNarrow(
+              fontSize: 19.sp,
+              fontWeight: FontWeight.w700,
+              color: AppColors.subText,
             ),
           ),
           const Gap(40),
@@ -61,12 +54,13 @@ class PhoneTop extends StatelessWidget {
               style: GoogleFonts.ptSansNarrow(
                 fontSize: 19.sp,
                 fontWeight: FontWeight.w700,
-                color: Colors.white,
+                color: Colors.black,
               ),
             ),
             style: ElevatedButton.styleFrom(
               elevation: 0,
               fixedSize: const Size(220, 60),
+              backgroundColor: Colors.grey,
             ),
           ),
         ],

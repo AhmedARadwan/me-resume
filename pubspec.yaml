@@ -36,8 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   responsive_sizer: ^3.0.5+1
   device_preview: ^1.0.0
-  google_fonts: ^2.3.1
-  gap: ^2.0.0
+  google_fonts: ^6.2.1
+  gap: ^3.0.1
   responsive_layout_builder: ^0.5.0
   flutter_svg: ^1.0.3
 
